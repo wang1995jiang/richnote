@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/remind_add"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:id="@+id/gallery_open"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gallery"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/carma_open"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/carma"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/video"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/music"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+    android:id="@+id/openG"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="90dp"
+    android:layout_marginBottom="10dp"/>
+    <View
+        android:id="@+id/openC"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:id="@+id/openV"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"/>
+    <View
+        android:id="@+id/openM"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>
